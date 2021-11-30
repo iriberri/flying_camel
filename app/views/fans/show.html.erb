@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @fan.name %>
+</p>
+
+<p>
+  <strong>Enthusiasm level:</strong>
+  <%= @fan.enthusiasm_level %>
+</p>
+
+<p>
+  <strong>Favorite player:</strong>
+  <%= @fan.favorite_player %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @fan.email %>
+</p>
+
+<p>
+  <strong>Hooliganism level:</strong>
+  <%= @fan.hooliganism_level %>
+</p>
+
+<%= link_to 'Edit', edit_fan_path(@fan) %> |
+<%= link_to 'Back', fans_path %>
